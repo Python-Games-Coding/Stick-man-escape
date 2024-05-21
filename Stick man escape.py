@@ -1,6 +1,6 @@
 from tkinter import messagebox, Tk, Canvas, PhotoImage, HIDDEN
 import random
-import time
+import time.sleep
 
 
 
