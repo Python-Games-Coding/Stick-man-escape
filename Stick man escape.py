@@ -1,6 +1,6 @@
 from tkinter import messagebox, Tk, Canvas, PhotoImage, HIDDEN
 import random
-import time.sleep
+import time
 
 
 
@@ -48,7 +48,8 @@ class Game:
                 door.close()
                 self.tk.update_idletasks()
                 self.tk.update()
-                messagebox.showinfo("Game Over!","游戏结束")
+                messagebox.showinfo("Game Over!","GAMEOVER!!!")
+                self.tk.destroy()
                 break
 
             self.tk.update_idletasks()

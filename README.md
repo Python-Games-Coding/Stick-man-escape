@@ -1,3 +1,4 @@
 # Stick-man-escape
 This game you can use it to escape the stick man(Bob)
-v1.0
+Fixed no model named: time.sleep Error
+v1.1
